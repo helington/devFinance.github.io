@@ -72,18 +72,21 @@
                 <form action="" onsubmit="Form.submit(event)">
                     <div class="input-group">
                         <label class="sr-only" for="description">Descrição</label>
-                        <input type="text" id="description" name="description" placeholder="Descrição">
+                        <input type="text" id="description" name="description" placeholder="Descrição"
+                        required>
                     </div>
 
                     <div class="input-group">
                         <label class="sr-only" for="amount">Valor</label>
-                        <input type="Number" step="0.01" id="amount" name="amount" placeholder="0,00">
+                        <input type="Number" step="0.01" id="amount" name="amount" placeholder="0,00"
+                        required>
                     </div>
                     <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small>
 
                     <div class="input-group">
                         <label class="sr-only" for="date">Data</label>
-                        <input type="date" id="date" name="date">
+                        <input type="date" id="date" name="date"
+                        required>
                     </div>
 
                     <div class="input-group actions">
